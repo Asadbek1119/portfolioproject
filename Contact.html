@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project HTML</title>
+</head>
+<style>
+    #header {
+        width: 100%;
+        height: 60px;
+        background-color: #000080;
+    }
+
+    .nav-menu {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .menu-item {
+        color: white;
+        font-size: 22px;
+        margin-left: 35px;
+    }
+
+    form {
+        background-color: white;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid gray;
+        text-align: center;
+    }
+    #input-wrapper{
+        padding: 40px 35px;
+    }
+    .input-box{
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 12px;
+        margin-bottom: 36px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .btn-submit{
+        background-color: darkblue;
+        padding: 12px 24px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        margin-bottom: 30px;
+        margin-top: -5px;
+    }
+</style>
+<body style="margin: 0; background-color: #f2f6ff;">
+<header id="header">
+    <nav class="nav-menu">
+        <a style="text-decoration-color: white" href="Lesson30.html"><span class="menu-item">TRIPS</span></a>
+        <a style="text-decoration-color: white" href="About.html"><span class="menu-item">ABOUT</span></a>
+        <a style="text-decoration-color: white" href="Contact.html"><span class="menu-item">CONTACT</span></a>
+    </nav>
+</header>
+<section>
+    <h1 style="text-align: center; margin-top: 30px;">Wanna come on my next trip? Contact me!</h1>
+    <form>
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box" type="text" name="Full Name" placeholder="Full Name">
+                <input class="input-box" type="email" name="Email" placeholder="Email">
+                <input class="input-box" type="number" name="Contact Number" placeholder="Contact Number">
+            </div>
+        </div>
+        <div>
+            <input class="btn-submit" type="submit" value="Confirm">
+        </div>
+    </form>
+
+</section>
+</body>
+</html>
